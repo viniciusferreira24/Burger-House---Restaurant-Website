@@ -1,0 +1,391 @@
+* {
+    margin: 0;
+    /* remove margem padrão */
+    padding: 0;
+    /* remove espaçamento padrão */
+    box-sizing: border-box;
+    /* inclui padding no tamanho */
+    font-family: Poppins, sans-serif;
+    /* define fonte */
+}
+
+body {
+    background: #111;
+    /* fundo escuro */
+    color: white;
+    /* cor do texto */
+}
+
+header {
+    display: flex;
+    /* ativa flexbox */
+    justify-content: space-between;
+    /* separa logo e menu */
+    align-items: center;
+    /* centraliza vertical */
+    padding: 25px 10%;
+    /* espaçamento interno */
+    position: absolute;
+    /* fica sobre o hero */
+    width: 100%;
+    /* ocupa largura total */
+    z-index: 100;
+    /* prioridade sobre outros */
+}
+
+.logo {
+    font-size: 22px;
+    /* tamanho logo */
+    font-weight: 600;
+    /* texto mais grosso */
+    color: #ffb300;
+    /* cor amarela */
+}
+
+nav a {
+    margin-left: 20px;
+    /* espaço entre links */
+    text-decoration: none;
+    /* remove sublinhado */
+    color: white;
+    /* cor texto */
+    transition: 0.3s;
+    /* animação hover */
+}
+
+nav a:hover {
+    color: #ffb300;
+    /* cor ao passar mouse */
+}
+
+.menu-toggle {
+    display: none;
+    /* escondido no desktop */
+    font-size: 28px;
+    /* tamanho ícone */
+    cursor: pointer;
+    /* cursor mão */
+}
+
+.hero {
+    height: 100vh;
+    /* altura tela inteira */
+    background: url("https://images.unsplash.com/photo-1550547660-d9450f859349") center/cover;
+    /* imagem fundo */
+    display: flex;
+    /* ativa flexbox */
+    align-items: center;
+    /* centraliza vertical */
+    padding-left: 5%;
+    /* espaço esquerda */
+}
+
+.hero-text {
+    max-width: 500px;
+    /* limita largura texto */
+}
+
+.hero h1 {
+    font-size: 50px;
+    /* tamanho título */
+}
+
+.hero p {
+    margin-bottom: 20px;
+    padding: 60px;
+    font-size: 24px;
+    font-weight: bold
+}
+
+.btn1 {
+    background: #ffb300;
+    /* fundo botão */
+    padding: 12px 50px;
+    /* tamanho botão */
+    border-radius: 25px;
+    /* borda arredondada */
+    text-decoration: none;
+    /* remove sublinhado */
+    color: black;
+    /* cor texto */
+    font-weight: 600;
+    /* texto forte */
+    border-radius: 25px;
+    /* borda arredondada */
+    cursor: pointer;
+     /* cursor mão */
+}
+
+.btn2 {
+    background: #ffb300;
+    /* fundo botão */
+    padding: 12px 25px;
+    /* tamanho botão */
+    border-radius: 25px;
+    /* borda arredondada */
+    text-decoration: none;
+    /* remove sublinhado */
+    color: black;
+    /* cor texto */
+    font-weight: 600;
+        /* texto forte */
+    border-radius: 25px;
+    /* borda arredondada */
+    margin-top: 20px;
+    /* espaço superior */
+    cursor: pointer;
+    /* cursor mão */
+
+
+}
+
+h2 {
+    font-size: 36px;
+    /* tamanho título seção */
+    margin-bottom: 20px;
+    /* espaço abaixo */
+    text-align: center;
+    /* centraliza */
+}
+
+h2::after {
+    content: "";
+    /* cria elemento */
+    width: 60px;
+    /* largura linha */
+    height: 4px;
+    /* altura linha */
+    background: #ffb300;
+    /* cor linha */
+    display: block;
+    /* vira bloco */
+    margin: 10px auto;
+    /* centraliza */
+}
+
+.menu {
+    padding: 80px 10%;
+    /* espaço seção */
+}
+
+.menu-container {
+    display: flex;
+    /* layout flex */
+    gap: 30px;
+    /* espaço cards */
+    justify-content: center;
+    /* centraliza */
+    flex-wrap: wrap;
+    /* quebra linha */
+}
+
+.card {
+    background: #1c1c1c;
+    /* fundo card */
+    border-radius: 10px;
+    /* borda arredondada */
+    overflow: hidden;
+    /* corta excesso */
+    width: 280px;
+    /* largura card */
+    transition: 0.4s;
+    /* animação */
+}
+
+.card:hover {
+    transform: translateY(-10px) scale(1.05);
+    /* sobe card */
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+    /* sombra */
+}
+
+.card img {
+    width: 100%;
+    /* largura total */
+    height: 200px;
+    /* altura fixa */
+    object-fit: cover;
+    /* corta imagem */
+}
+
+.card h3 {
+    margin: 15px;
+    /* espaço título */
+}
+
+.card p {
+    margin: 0 15px 20px;
+    /* espaço texto */
+}
+
+.about {
+    padding: 80px 20%;
+    /* espaço seção */
+    text-align: center;
+    /* centraliza texto */
+    background: #1a1a1a;
+    /* fundo seção */
+}
+
+.contact {
+    padding: 80px 10%;
+    /* espaço seção */
+    text-align: center;
+}
+
+.pedido-modal {
+    position: fixed;
+    /* fixa tela */
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* largura total */
+    height: 100%;
+    /* altura total */
+    background: rgba(0, 0, 0, 0.8);
+    /* fundo escuro */
+    display: none;
+    /* começa escondido */
+    align-items: center;
+    /* centraliza */
+    justify-content: center;
+}
+
+.pedido-box {
+    background: #1c1c1c;
+    /* fundo caixa */
+    padding: 40px;
+    /* espaço interno */
+    border-radius: 10px;
+    /* borda */
+    display: flex;
+    /* layout flex */
+    flex-direction: column;
+    /* itens coluna */
+    gap: 15px;
+    /* espaço itens */
+}
+
+.whatsapp-btn {
+    position: fixed;
+    /* botão fixo */
+    bottom: 25px;
+    /* distância base */
+    right: 25px;
+    /* distância direita */
+    background: #25D366;
+    /* cor whatsapp */
+    width: 60px;
+    /* largura */
+    height: 60px;
+    /* altura */
+    display: flex;
+    /* flexbox */
+    align-items: center;
+    /* centraliza */
+    justify-content: center;
+    border-radius: 50%;
+    /* botão redondo */
+    font-size: 30px;
+    /* tamanho emoji */
+    text-decoration: none;
+}
+
+footer {
+    background: #000;
+    /* fundo rodapé */
+    text-align: center;
+    /* centraliza */
+    padding: 20px;
+    /* espaço interno */
+}
+
+@media(max-width:768px) {
+
+    .menu-toggle {
+        display: block;
+        /* mostra menu mobile */
+    }
+
+    nav {
+        display: none;
+        /* esconde menu */
+        flex-direction: column;
+        /* menu vertical */
+        background: #000;
+        position: absolute;
+        top: 70px;
+        right: 10%;
+        padding: 20px;
+    }
+
+    nav.active {
+        display: flex;
+        /* mostra menu */
+    }
+
+    .hero h1 {
+        font-size: 36px;
+        /* reduz título */
+    }
+
+}
+
+.pedido-opcoes {
+    display: flex;
+    /* organiza cards em linha */
+    gap: 20px;
+    /* espaço entre cards */
+    margin-top: 20px;
+    /* espaço superior */
+    flex-wrap: wrap;
+    /* quebra linha se necessário */
+    justify-content: center;
+    /* centraliza cards */
+}
+
+.pedido-item {
+    background: #222;
+    /* fundo card */
+    border-radius: 10px;
+    /* borda arredondada */
+    cursor: pointer;
+    /* cursor clicável */
+    width: 150px;
+    /* largura card */
+    text-align: center;
+    /* centraliza texto */
+    overflow: hidden;
+    /* corta excesso */
+    transition: 0.3s;
+    /* animação */
+}
+
+.pedido-item img {
+    width: 100%;
+    /* imagem ocupa largura */
+    height: 100px;
+    /* altura fixa */
+    object-fit: cover;
+    /* corta imagem proporcional */
+}
+
+.pedido-item h3 {
+    padding: 10px;
+    /* espaço interno */
+    font-size: 16px;
+    /* tamanho texto */
+}
+
+.pedido-item:hover {
+    transform: scale(1.05);
+    /* aumenta ao passar mouse */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+    /* sombra */
+}
+
+.pedido-item.selected {
+    border: 2px solid #ffb300;
+    /* destaca item selecionado */
+}
+
