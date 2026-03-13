@@ -1,54 +1,54 @@
-# 🍔 Burger House — Restaurant Website
+# 🍔 Burger House — Site de Restaurante
 
-A modern restaurant landing page designed to help small food businesses attract customers and receive orders online.
+Uma landing page moderna para restaurantes, criada para ajudar pequenos negócios do ramo alimentício a atrair clientes e receber pedidos online.
 
-This project simulates a **real website for a burger restaurant**, including a menu, product gallery, customer reviews, and direct ordering through WhatsApp.
+Este projeto simula um **site real para uma hamburgueria**, incluindo cardápio, galeria de produtos, avaliações de clientes e pedidos diretos pelo WhatsApp.
 
-The goal of this project is to demonstrate how a simple and elegant website can help restaurants increase visibility and sales.
-
----
-
-# 🌐 Project Overview
-
-This website was designed as a **modern landing page for a burger restaurant**, focusing on:
-
-* Clean and attractive design
-* Easy navigation
-* Mobile responsiveness
-* Quick ordering through WhatsApp
-
-It represents the type of website I can build for **restaurants, cafés, snack bars, and local businesses**.
+O objetivo deste projeto é demonstrar como um site simples e elegante pode ajudar restaurantes a aumentar a visibilidade e as vendas.
 
 ---
 
-# ✨ Main Features
+# 🌐 Visão Geral do Projeto
 
-✔ Responsive design (mobile-friendly)
-✔ Restaurant menu with product cards
-✔ Food image gallery
-✔ Customer review section
-✔ WhatsApp order integration
-✔ Floating WhatsApp contact button
-✔ Interactive order modal
-✔ Clean and modern UI
+Este site foi projetado como uma **landing page moderna para uma hamburgueria**, com foco em:
+
+* Design limpo e atraente
+* Navegação fácil
+* Responsividade para dispositivos móveis
+* Pedidos rápidos pelo WhatsApp
+
+Ele representa o tipo de site que posso criar para **restaurantes, cafés, lanchonetes e negócios locais**.
 
 ---
 
-# 🛠 Technologies Used
+# ✨ Principais Recursos
+
+✔ Design responsivo (compatível com dispositivos móveis)
+✔ Cardápio do restaurante com cartões de produtos
+✔ Galeria de imagens de pratos
+✔ Seção de avaliações de clientes
+✔ Integração com pedidos via WhatsApp
+✔ Botão flutuante para contato via WhatsApp
+✔ Modal de pedido interativo
+✔ Interface de usuário limpa e moderna
+
+---
+
+# 🛠 Tecnologias Utilizadas
 
 * **HTML5**
 * **CSS3**
 * **JavaScript**
 * **Google Fonts**
 
-This project was built using **pure front-end technologies** without frameworks to ensure lightweight performance and full customization.
+Este projeto foi desenvolvido utilizando **tecnologias front-end puras**, sem frameworks, para garantir baixo desempenho e total personalização.
 
 ---
 
-# 📂 Project Structure
+# 📂 Estrutura do Projeto
 
 ```
-burger-house-website
+website da hamburgueria
 │
 ├── index.html
 ├── style.css
@@ -58,51 +58,51 @@ burger-house-website
 
 ---
 
-# 📱 Responsive Design
+# 📱 Design Responsivo
 
-The layout adapts to different screen sizes including:
+O layout se adapta a diferentes tamanhos de tela, incluindo:
 
 * Desktop
 * Tablet
-* Mobile devices
+* Dispositivos móveis
 
-Ensuring a smooth user experience across all platforms.
+Garantindo uma experiência de usuário fluida em todas as plataformas.
 
 ---
 
-# 🎯 Purpose of the Project
+# 🎯 Objetivo do Projeto
 
-This project was developed as part of my **web development portfolio** to showcase my ability to build professional websites for local businesses.
+Este projeto foi desenvolvido como parte do meu **portfólio de desenvolvimento web** para demonstrar minha capacidade de criar websites profissionais para empresas locais.
 
-Examples of businesses that could use a website like this:
+Exemplos de negócios que poderiam usar um site como este:
 
-* Burger restaurants
-* Pizzerias
+* Restaurantes de hambúrgueres
+* Pizzarias
 * Cafés
 * Food trucks
-* Snack bars
+* Lanchonetes
 
 ---
 
-# 🚀 Possible Improvements
+# 🚀 Possíveis Melhorias
 
-Future upgrades could include:
+Futuras atualizações podem incluir:
 
-* Online payment integration
-* Admin panel for orders
-* Dynamic menu system
-* Backend integration
-
----
-
-# 👨‍💻 Developer
-
-Freelance Web Developer
-
-I create modern websites for small businesses looking to establish their presence online.
+* Integração de pagamento online
+* ​​Painel administrativo para pedidos
+* Sistema de cardápio dinâmico
+* Integração com o backend
 
 ---
 
-# 📬 Contact
+# 👨‍💻 Desenvolvedor
 
-If you are interested in a website like this for your business, feel free to contact me.
+Desenvolvedor Web Freelancer
+
+Crio sites modernos para pequenas empresas que desejam estabelecer sua presença online.
+
+---
+
+# 📬 Contato
+
+Se você estiver interessado em um site como este para o seu negócio, entre em contato comigo.
